@@ -1,0 +1,33 @@
+{
+  "name": "genpark-personal-habit-streak-anti-fragility-skill",
+  "version": "1.0.0",
+  "description": "Anti-fragile habit tracker and elastic degradation engine preventing streak-break abandonment through adaptive micro-fallbacks.",
+  "category": "Service",
+  "author": "AlphaPark",
+  "tags": [
+    "personal-agent",
+    "habit-tracker",
+    "behavioral-design",
+    "anti-fragile",
+    "zero-dependency",
+    "mcp"
+  ],
+  "tools": [
+    {
+      "name": "compute_elastic_fallback",
+      "description": "Downgrade habit to low-energy micro-version during busy/sick days."
+    },
+    {
+      "name": "calculate_streak_health",
+      "description": "Evaluate streak continuity with a 2-day elastic grace window."
+    },
+    {
+      "name": "log_habit_execution",
+      "description": "Record daily execution with intensity and friction score."
+    },
+    {
+      "name": "run_benchmark_habit_anti_fragility",
+      "description": "Run habit resilience and streak recovery benchmark."
+    }
+  ]
+}
